@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	o-box-sizing:border-box;
+}
+
+header{
+	background: url("http://img.meteorologiaenred.com/wp-content/uploads/2015/04/cielo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; /*para que ocupe todo el header */
+	width: 100%;
+	min-height: 2000px;
+}
+
+.capa2{
+	min-height: 2000px;
+	background:url("http://3.bp.blogspot.com/-IssekobrrYQ/VP8m_SHXPvI/AAAAAAADPmk/uHcBspU56Ys/s1600/GLOBOS%2BAEROST%C3%81TICOS%2B(32).png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	position: absolute;
+	width: 100%;
+}
+
+.avion{
+	min-height: 185px;
+	background:url("http://nuevosiglo.com/wp-content/uploads/2011/12/Avion_Volaris.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 10px;
+	top: 300px;
+	width: 100%; 	
+}
+.paracaidista{
+	min-height: 1400px;
+	background:url("https://d30y9cdsu7xlg0.cloudfront.net/png/1381-200.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 140px;
+	top: 370px;
+	width: 100%; 	
+}
+
+.paracaidista2{
+	min-height: 1400px;
+	background:url("https://d30y9cdsu7xlg0.cloudfront.net/png/1381-200.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 340px;
+	top: 360px;
+	width: 100%; 	
+}

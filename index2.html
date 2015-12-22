@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Parallax</title>
+
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<header>
+		<div class="capa2">
+			<div class="contenedor">
+
+			</div>
+
+		</div>
+		<div class="avion">
+		</div>
+		<div class="paracaidista">
+		</div>
+		<div class="paracaidista2">
+		</div>
+	</header>
+</body>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+	$(document).on("ready",function() {
+		$(window).scroll(function(){
+			var barra = $(window).scrollTop();
+			$(".capa2").css({
+				"background-position-y":barra*-0.2+"px",
+			})
+			$(".avion").css({
+				"background-position-x":barra*0.9+"px",
+			})
+			$(".paracaidista").css({
+				"background-position-y":barra*0.8+"px",
+			})
+			$(".paracaidista2").css({
+				"background-position-y":barra*0.7+"px",
+			})
+		})
+	})
+
+</script>
+</html>

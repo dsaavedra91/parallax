@@ -1,0 +1,24 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	o-box-sizing:border-box;
+}
+
+header{
+	background: url("http://img.meteorologiaenred.com/wp-content/uploads/2015/04/cielo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; /*para que ocupe todo el header */
+
+}
+
+.capa2{
+	min-height: 2000px;
+	background:url("http://3.bp.blogspot.com/-IssekobrrYQ/VP8m_SHXPvI/AAAAAAADPmk/uHcBspU56Ys/s1600/GLOBOS%2BAEROST%C3%81TICOS%2B(32).png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	
+}
